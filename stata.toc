@@ -1,7 +1,7 @@
-*Table of contents for the HaversineDistance Stata ADO
+*Table of contents for the fastgini Stata ADO
 
 *Version (3 is the most recent for TOC files)
 v 3
-d James Archsmith, University of California, Davis
-d http://www.econjim.com
-p HaversineDistance Compute summary statistics based on the distance between points expressed by their latitude and longitude.
+d James Archsmith, Department of Agricultural and Resource Economics, University of Maryland, College Park
+d https://econjim.com
+p fastgini Quickly compute Gini coefficients.
