@@ -79,6 +79,8 @@ Compute Gini coefficient on height, using sampling weights, treating height as d
 
 {marker license}{...}
 {title:License}
+fastgini - Quickly compute Gini coefficients
+
 Copyright 2022 James Archsmith
 
 Licensed under the Apache License, Version 2.0 (the "License");
