@@ -71,8 +71,8 @@ Compute Gini coefficient on height
 {phang}{cmd:. fastgini height}{p_end}
 
 Compute Gini coefficient on height using sampling weights
-{phang}{cmd:. fastgini height [fweight=sampwgt]}{p_end}
+{phang}{cmd:. fastgini height [aweight=sampwgt]}{p_end}
 
 Compute Gini coefficient on height, using sampling weights, treating height as discrete
-{phang}{cmd:. fastgini height [pweight=sampwgt], discrete}{p_end}
+{phang}{cmd:. fastgini height [aweight=sampwgt], discrete}{p_end}
 
