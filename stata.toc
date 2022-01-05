@@ -1,0 +1,7 @@
+*Table of contents for the HaversineDistance Stata ADO
+
+*Version (3 is the most recent for TOC files)
+v 3
+d James Archsmith, University of California, Davis
+d http://www.econjim.com
+p HaversineDistance Compute summary statistics based on the distance between points expressed by their latitude and longitude.
