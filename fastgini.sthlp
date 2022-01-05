@@ -54,7 +54,11 @@ The algorithim used in {cmd:fastgini} was adapted from {browse "http://freerange
 {pstd}
 Obtain the latest version using
 
-{bf:net install HaversineDistance, from(https://bitbucket.org/drofphilosophe/stata.haversinedistance/raw/master) replace}
+{bf:net install fastgini, from("https://github.com/drofphilosophe/Stata-fastgini/raw/main") replace}
+
+Suggested citation
+
+Archsmith, James. (2022) fastgini -- Quickly compute Gini coefficients. https://github.com/drofphilosophe/Stata-fastgini
 
 
 {marker examples}{...}
