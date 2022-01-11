@@ -1,4 +1,4 @@
-# fastgini
+# fgini
  Quickly compute Gini coefficients in Stata
  
  Install this package using the following command in Stata:
