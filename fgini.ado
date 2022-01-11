@@ -1,5 +1,5 @@
 /********************************************
-** fastgini
+** fgini
 **
 
 Copyright 2022 James Archsmith
@@ -36,7 +36,7 @@ mata
 	   This algorithim is O(n) once the data are sorted by x and the sort is O(n log n)
 	   compared to other algorithms that are O(n^2)
 	*/
-	real scalar fastgini(x,w) {
+	real scalar fgini(x,w) {
 		real vector wx, wsum, wxsum, pxi, pci
 		real scalar N, g, i
 		
@@ -54,8 +54,8 @@ mata
 	}
 end
 
-capture program drop fastgini
-program define fastgini, rclass
+capture program drop fgini
+program define fgini, rclass
 	syntax varname [if] [in] [fw aw/], [discrete]
 	version 16.0
 	
@@ -100,7 +100,7 @@ program define fastgini, rclass
 			di "{txt}Assuming {res}`varlist' {txt}is continuous"
 		}
 		
-		/* fastgini() requires data to be sorted by x
+		/* fgini() requires data to be sorted by x
 		   we'll use the fastest sorting algorithim I have... quicksort
 		*/
 		sort `varlist'
@@ -111,7 +111,7 @@ program define fastgini, rclass
 		mata: `mata_w'=st_data(.,"`w'")			/* Vector of weights */
 		
 		/* Compute GINI and return the result to coef */
-		mata: st_numscalar("`coef'",fastgini(`mata_x',`mata_w')) 
+		mata: st_numscalar("`coef'",fgini(`mata_x',`mata_w')) 
 
 	
 	/* Return the data to the original format */

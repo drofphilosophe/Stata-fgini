@@ -1,12 +1,12 @@
-*Package file for fastgini
+*Package file for fgini
 *Version (3 is most recent)
 v 3
 **Description
-d fastgini. Quickly compute Gini coefficients.
+d fgini. Quickly compute Gini coefficients.
 d {bf:James Archsmith, Department of Agricultural and Resource Economics, University of Maryland, College Park}
 d {browse "https://econjim.com/":econjim.com}
 d
 d Distribution-Date: 20220105
 d
-f fastgini.ado
-f fastgini.sthlp
+f fgini.ado
+f fgini.sthlp

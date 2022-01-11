@@ -12,14 +12,14 @@
 {title:Title}
 
 {phang}
-{bf:fastgini} {hline 2} Quickly compute Gini coefficients
+{bf:fgini} {hline 2} Quickly compute Gini coefficients
 
 
 {marker syntax}{...}
 {title:Syntax}
 
 {p 8 17 2}
-{cmdab:fastgini}
+{cmdab:fgini}
 {it:varname}
 [{it:weight}]
 {ifin}
@@ -41,25 +41,25 @@
 
 
 {pstd}
-{cmd:fastgini} computes the Gini coefficient of {it:varname}. While the Gini is defined
+{cmd:fgini} computes the Gini coefficient of {it:varname}. While the Gini is defined
 as a function of all pariwise combinations of values in {it:varname}, the algorithim used
-in {cmd:fastgini} scales in complexity approximately linearly with the number of observations. 
+in {cmd:fgini} scales in complexity approximately linearly with the number of observations. 
 
 
 {marker remarks}{...}
 {title:Remarks}
 
 {pstd}
-The algorithim used in {cmd:fastgini} was adapted from {browse "http://freerangestats.info/blog/2017/08/05/weighted-gini":freerangestats.info/blog/2017/08/05/weighted-gini}, which appears to follow {it:Working Paper No 17–02 by Vic Duoba and Nairn MacGibbon} at {browse "https://www.stats.govt.nz/methods/research-papers/working-papers-original/calc-gini-index-17-02.aspx":www.stats.govt.nz/methods/research-papers/working-papers-original/calc-gini-index-17-02.aspx}, which as of January 2022 is a dead link. 
+The algorithim used in {cmd:fgini} was adapted from {browse "http://freerangestats.info/blog/2017/08/05/weighted-gini":freerangestats.info/blog/2017/08/05/weighted-gini}, which appears to follow {it:Working Paper No 17–02 by Vic Duoba and Nairn MacGibbon} at {browse "https://www.stats.govt.nz/methods/research-papers/working-papers-original/calc-gini-index-17-02.aspx":www.stats.govt.nz/methods/research-papers/working-papers-original/calc-gini-index-17-02.aspx}, which as of January 2022 is a dead link. 
 
 {pstd}
 Obtain the latest version using
 
-{bf:net install fastgini, from("https://github.com/drofphilosophe/Stata-fastgini/raw/main") replace}
+{bf:net install fgini, from("https://github.com/drofphilosophe/Stata-fgini/raw/main") replace}
 
 Suggested citation
 
-Archsmith, James. (2022) fastgini -- Quickly compute Gini coefficients. https://github.com/drofphilosophe/Stata-fastgini
+Archsmith, James. (2022) fgini -- Quickly compute Gini coefficients. https://github.com/drofphilosophe/Stata-fgini
 
 
 {marker examples}{...}
@@ -69,13 +69,13 @@ Setup
 {phang}{cmd:. webuse highschool}{p_end}
 
 Compute Gini coefficient on height
-{phang}{cmd:. fastgini height}{p_end}
+{phang}{cmd:. fgini height}{p_end}
 
 Compute Gini coefficient on height using sampling weights
-{phang}{cmd:. fastgini height [aweight=sampwgt]}{p_end}
+{phang}{cmd:. fgini height [aweight=sampwgt]}{p_end}
 
 Compute Gini coefficient on height, using sampling weights, treating height as discrete
-{phang}{cmd:. fastgini height [aweight=sampwgt], discrete}{p_end}
+{phang}{cmd:. fgini height [aweight=sampwgt], discrete}{p_end}
 
 {marker license}{...}
 {title:License}

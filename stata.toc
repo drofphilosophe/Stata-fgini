@@ -4,4 +4,4 @@
 v 3
 d James Archsmith, Department of Agricultural and Resource Economics, University of Maryland, College Park
 d https://econjim.com
-p fastgini Quickly compute Gini coefficients.
+p fgini Quickly compute Gini coefficients.
