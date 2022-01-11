@@ -3,7 +3,7 @@
  
  Install this package using the following command in Stata:
  
- `net install fastgini, from("https://github.com/drofphilosophe/Stata-fastgini/raw/main") replace`
+ `net install fgini, from("https://github.com/drofphilosophe/Stata-fastgini/raw/main") replace`
  
  ## Description
  This program will compute the Gini coefficient of a numeric variable. The Gini is defined as a function of all pairwise combinations 
