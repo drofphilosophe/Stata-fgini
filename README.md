@@ -11,4 +11,13 @@
  implements in algorithim described by Vic Duoba and Nairn MacGibbon, which after sorting data scales linearlly with the number of 
  observations. The algorithim is implmentated in Mata, and can be substantially faster than other implementations, particularlly 
  when the number of observations is large. 
+
+ ## Citation
+ If you use this software, please cite it as
+
+ Archsmith, J. , stata-fgini: Fast calculation if GINI coefficients in Stata (Version 1.0.0) [Computer software]. <https://github.com/drofphilosophe/Stata-fgini>
+
+ ## License
+
+ This sofware is licensed under the Apache License Version 2.0. 
  
