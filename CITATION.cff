@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "James"
-  given-names: "Archsmith"
+- family-names: "Archsmith"
+  given-names: "James"
   orcid: "https://orcid.org/0000-0002-6052-0302"
 title: "stata-fgini: Fast calculation if GINI coefficients in Stata"
 version: 1.0.0
