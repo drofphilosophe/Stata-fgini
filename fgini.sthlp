@@ -50,7 +50,9 @@ in {cmd:fgini} scales in complexity approximately linearly with the number of ob
 {title:Remarks}
 
 {pstd}
-The algorithim used in {cmd:fgini} was adapted from {browse "http://freerangestats.info/blog/2017/08/05/weighted-gini":freerangestats.info/blog/2017/08/05/weighted-gini}, which appears to follow {it:Working Paper No 17–02 by Vic Duoba and Nairn MacGibbon} at {browse "https://statsnz.contentdm.oclc.org/digital/collection/p20045coll1/id/4199/":statsnz.contentdm.oclc.org/digital/collection/p20045coll1/id/4199}. 
+The algorithim used in {cmd:fgini} was adapted from {browse "http://freerangestats.info/blog/2017/08/05/weighted-gini":freerangestats.info/blog/2017/08/05/weighted-gini}, 
+which appears to follow {it:Accurate calculation of a Gini index using SAS and R} by Vic Duoba and Nairn MacGibbon at 
+{browse "https://statsnz.contentdm.oclc.org/digital/collection/p20045coll1/id/4199/":statsnz.contentdm.oclc.org/digital/collection/p20045coll1/id/4199}. 
 
 {pstd}
 Obtain the latest version using
