@@ -1,0 +1,11 @@
+Stata-fgini
+
+Copyright 2022 James Archsmith
+
+==============================
+Additional Notices
+==============================
+The algoritim in this repository was adapted from <http://freerangestats.info/blog/2017/08/05/weighted-gini> Accessed November 29, 2021
+which provides as its source "Working Paper No 17–02 by Vic Duoba and Nairn MacGibbon"
+at <https://www.stats.govt.nz/methods/research-papers/working-papers-original/calc-gini-index-17-02.aspx> as
+of November 29, 2021 this link was non-operative. 
