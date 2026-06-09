@@ -5,5 +5,5 @@ authors:
   given-names: "James"
   orcid: "https://orcid.org/0000-0002-6052-0302"
 title: "stata-fgini: Fast calculation of GINI coefficients in Stata"
-version: 1.0.0
+version: 1.0.2
 url: "https://github.com/drofphilosophe/Stata-fgini"
